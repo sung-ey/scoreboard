@@ -1,8 +1,55 @@
+@font-face {
+    src: url("/fonts/CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil-Aznm;    
+    font-weight: bolder;
+}
+
 body {
+    font-family: CursedTimerUlil-Aznm;
+    background: #050546;
+    color: white;
     margin: 0;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.scoreboard h3 {
+    font-family: Arimo;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.scoreboard h2 {
+    font-size: 4.5em;
+    text-align: center;
+    color: red;
+    background: black;
+    width: 150px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.scoreboard button {
+    font-family: inherit;
+    color: white;
+    background: #050546;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0;
 }
